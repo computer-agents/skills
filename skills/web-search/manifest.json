@@ -5,16 +5,22 @@
   "version": "1.0.0",
   "summary": "Real-time web searching with result filtering and concise source summaries.",
   "category": "research",
-  "tags": ["search", "web", "real-time"],
+  "tags": [
+    "search",
+    "web",
+    "real-time"
+  ],
   "icon": "search",
   "source": {
     "type": "first-party",
     "owner": "computer-agents",
-    "repo": "skills-catalog"
+    "repo": "skills"
   },
   "files": {
     "prompt": "skill.md",
-    "code": ["code/web-search.py"]
+    "code": [
+      "code/scripts/web-search.py"
+    ]
   },
   "install": {
     "marketplaceTemplateId": "market-skill-web-search",

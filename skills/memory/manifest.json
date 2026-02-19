@@ -5,16 +5,22 @@
   "version": "1.0.0",
   "summary": "Search through prior threads and recall relevant context for ongoing work.",
   "category": "productivity",
-  "tags": ["memory", "context", "threads"],
+  "tags": [
+    "memory",
+    "context",
+    "threads"
+  ],
   "icon": "brain",
   "source": {
     "type": "first-party",
     "owner": "computer-agents",
-    "repo": "skills-catalog"
+    "repo": "skills"
   },
   "files": {
     "prompt": "skill.md",
-    "code": ["code/search-threads.py"]
+    "code": [
+      "code/scripts/search-threads.py"
+    ]
   },
   "install": {
     "marketplaceTemplateId": "market-skill-memory",

@@ -5,16 +5,22 @@
   "version": "1.0.0",
   "summary": "Comprehensive research using multi-source evidence, synthesis, and citation structure.",
   "category": "research",
-  "tags": ["research", "analysis", "citations"],
+  "tags": [
+    "research",
+    "analysis",
+    "citations"
+  ],
   "icon": "telescope",
   "source": {
     "type": "first-party",
     "owner": "computer-agents",
-    "repo": "skills-catalog"
+    "repo": "skills"
   },
   "files": {
     "prompt": "skill.md",
-    "code": ["code/deep-research.py"]
+    "code": [
+      "code/scripts/deep-research.py"
+    ]
   },
   "install": {
     "marketplaceTemplateId": "market-skill-deep-research",

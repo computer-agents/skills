@@ -5,16 +5,32 @@
   "version": "1.0.0",
   "summary": "Extract, transform, merge, split, and generate PDFs with structured outputs.",
   "category": "documents",
-  "tags": ["pdf", "documents", "automation"],
+  "tags": [
+    "pdf",
+    "documents",
+    "automation"
+  ],
   "icon": "file-text",
   "source": {
     "type": "first-party",
     "owner": "computer-agents",
-    "repo": "skills-catalog"
+    "repo": "skills"
   },
   "files": {
     "prompt": "skill.md",
-    "code": ["code/SKILL.md"]
+    "code": [
+      "code/forms.md",
+      "code/LICENSE.txt",
+      "code/reference.md",
+      "code/scripts/check_bounding_boxes_test.py",
+      "code/scripts/check_bounding_boxes.py",
+      "code/scripts/check_fillable_fields.py",
+      "code/scripts/convert_pdf_to_images.py",
+      "code/scripts/create_validation_image.py",
+      "code/scripts/extract_form_field_info.py",
+      "code/scripts/fill_fillable_fields.py",
+      "code/scripts/fill_pdf_form_with_annotations.py"
+    ]
   },
   "install": {
     "marketplaceTemplateId": "market-skill-pdf-processing",
@@ -25,5 +41,5 @@
     "platformMin": "1.0.0",
     "runtime": "custom-skill-v1"
   },
-  "license": "MIT"
+  "license": "Proprietary"
 }
