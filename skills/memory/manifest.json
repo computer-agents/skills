@@ -1,0 +1,29 @@
+{
+  "id": "ca.skill.memory",
+  "slug": "memory",
+  "name": "Memory",
+  "version": "1.0.0",
+  "summary": "Search through prior threads and recall relevant context for ongoing work.",
+  "category": "productivity",
+  "tags": ["memory", "context", "threads"],
+  "icon": "brain",
+  "source": {
+    "type": "first-party",
+    "owner": "computer-agents",
+    "repo": "skills-catalog"
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": ["code/search-threads.py"]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-memory",
+    "icon": "brain",
+    "category": "productivity"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

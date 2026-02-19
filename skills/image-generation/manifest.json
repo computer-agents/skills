@@ -1,0 +1,29 @@
+{
+  "id": "ca.skill.image-generation",
+  "slug": "image-generation",
+  "name": "Image Generation",
+  "version": "1.0.0",
+  "summary": "Generate and edit images from text prompts using diffusion-style models.",
+  "category": "creative",
+  "tags": ["image", "creative", "design"],
+  "icon": "image",
+  "source": {
+    "type": "first-party",
+    "owner": "computer-agents",
+    "repo": "skills-catalog"
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": ["code/generate-image.py"]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-image-generation",
+    "icon": "image",
+    "category": "creative"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

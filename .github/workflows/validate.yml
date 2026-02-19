@@ -1,0 +1,32 @@
+name: Validate Skills Catalog
+
+on:
+  pull_request:
+    paths:
+      - 'index.json'
+      - 'schema/**'
+      - 'skills/**'
+      - 'scripts/validate-skills-catalog.mjs'
+  push:
+    branches:
+      - main
+    paths:
+      - 'index.json'
+      - 'schema/**'
+      - 'skills/**'
+      - 'scripts/validate-skills-catalog.mjs'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate catalog
+        run: node scripts/validate-skills-catalog.mjs

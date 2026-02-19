@@ -1,0 +1,29 @@
+{
+  "id": "ca.skill.pptx",
+  "slug": "pptx",
+  "name": "PowerPoint/PPTX",
+  "version": "1.0.0",
+  "summary": "Create, edit, and analyze PowerPoint decks with template and OOXML workflows.",
+  "category": "productivity",
+  "tags": ["pptx", "presentations", "slides"],
+  "icon": "presentation",
+  "source": {
+    "type": "first-party",
+    "owner": "computer-agents",
+    "repo": "skills-catalog"
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": ["code/SKILL.md"]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-pptx",
+    "icon": "presentation",
+    "category": "productivity"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

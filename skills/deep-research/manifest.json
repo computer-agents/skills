@@ -1,0 +1,29 @@
+{
+  "id": "ca.skill.deep-research",
+  "slug": "deep-research",
+  "name": "Deep Research",
+  "version": "1.0.0",
+  "summary": "Comprehensive research using multi-source evidence, synthesis, and citation structure.",
+  "category": "research",
+  "tags": ["research", "analysis", "citations"],
+  "icon": "telescope",
+  "source": {
+    "type": "first-party",
+    "owner": "computer-agents",
+    "repo": "skills-catalog"
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": ["code/deep-research.py"]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-deep-research",
+    "icon": "telescope",
+    "category": "research"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

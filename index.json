@@ -1,0 +1,37 @@
+{
+  "catalogVersion": "1.0.0",
+  "updatedAt": "2026-02-18T00:00:00.000Z",
+  "publisher": "computer-agents",
+  "skills": [
+    {
+      "id": "ca.skill.deep-research",
+      "slug": "deep-research",
+      "manifest": "skills/deep-research/manifest.json"
+    },
+    {
+      "id": "ca.skill.web-search",
+      "slug": "web-search",
+      "manifest": "skills/web-search/manifest.json"
+    },
+    {
+      "id": "ca.skill.image-generation",
+      "slug": "image-generation",
+      "manifest": "skills/image-generation/manifest.json"
+    },
+    {
+      "id": "ca.skill.pdf-processing",
+      "slug": "pdf-processing",
+      "manifest": "skills/pdf-processing/manifest.json"
+    },
+    {
+      "id": "ca.skill.pptx",
+      "slug": "pptx",
+      "manifest": "skills/pptx/manifest.json"
+    },
+    {
+      "id": "ca.skill.memory",
+      "slug": "memory",
+      "manifest": "skills/memory/manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ca.skill.web-search",
+  "slug": "web-search",
+  "name": "Web Search",
+  "version": "1.0.0",
+  "summary": "Real-time web searching with result filtering and concise source summaries.",
+  "category": "research",
+  "tags": ["search", "web", "real-time"],
+  "icon": "search",
+  "source": {
+    "type": "first-party",
+    "owner": "computer-agents",
+    "repo": "skills-catalog"
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": ["code/web-search.py"]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-web-search",
+    "icon": "search",
+    "category": "research"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

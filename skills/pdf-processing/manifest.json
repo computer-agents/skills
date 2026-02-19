@@ -1,0 +1,29 @@
+{
+  "id": "ca.skill.pdf-processing",
+  "slug": "pdf-processing",
+  "name": "PDF Processing",
+  "version": "1.0.0",
+  "summary": "Extract, transform, merge, split, and generate PDFs with structured outputs.",
+  "category": "documents",
+  "tags": ["pdf", "documents", "automation"],
+  "icon": "file-text",
+  "source": {
+    "type": "first-party",
+    "owner": "computer-agents",
+    "repo": "skills-catalog"
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": ["code/SKILL.md"]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-pdf-processing",
+    "icon": "file-text",
+    "category": "documents"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}
