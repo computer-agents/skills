@@ -1,0 +1,40 @@
+{
+  "id": "ca.skill.community-playwright-browser-automation",
+  "slug": "community-playwright-browser-automation",
+  "name": "Playwright Browser Automation",
+  "version": "1.0.0",
+  "summary": "Executes end-to-end browser automation with robust Playwright patterns and helpers.",
+  "category": "development",
+  "tags": [
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "lackeyjb",
+    "repo": "playwright-skill",
+    "commit": "bb7e920",
+    "path": "skills/playwright-skill",
+    "stars": 1717
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": [
+      "code/skills/playwright-skill/API_REFERENCE.md",
+      "code/skills/playwright-skill/package.json",
+      "code/skills/playwright-skill/run.js"
+    ]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-playwright-browser-automation",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

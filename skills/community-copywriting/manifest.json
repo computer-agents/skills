@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-copywriting",
+  "slug": "community-copywriting",
+  "name": "Copywriting Studio",
+  "version": "1.0.0",
+  "summary": "Produces high-conversion copy variants for landing pages, ads, and email.",
+  "category": "productivity",
+  "tags": [
+    "copywriting",
+    "conversion",
+    "marketing"
+  ],
+  "icon": "file-text",
+  "source": {
+    "type": "community",
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "commit": "a857eb6",
+    "path": "skills/copywriting",
+    "stars": 8313
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-copywriting",
+    "icon": "file-text",
+    "category": "productivity"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

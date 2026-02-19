@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-security-reviewer",
+  "slug": "community-security-reviewer",
+  "name": "Security Reviewer",
+  "version": "1.0.0",
+  "summary": "Reviews application and infrastructure changes with a practical offensive/defensive lens.",
+  "category": "development",
+  "tags": [
+    "security",
+    "review",
+    "hardening"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "Jeffallan",
+    "repo": "claude-skills",
+    "commit": "8e68798",
+    "path": "skills/security-reviewer",
+    "stars": 3190
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-security-reviewer",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

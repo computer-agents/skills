@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-content-strategy",
+  "slug": "community-content-strategy",
+  "name": "Content Strategy Planner",
+  "version": "1.0.0",
+  "summary": "Builds editorial direction, messaging structure, and execution-ready content plans.",
+  "category": "productivity",
+  "tags": [
+    "content",
+    "strategy",
+    "marketing"
+  ],
+  "icon": "file-text",
+  "source": {
+    "type": "community",
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "commit": "a857eb6",
+    "path": "skills/content-strategy",
+    "stars": 8313
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-content-strategy",
+    "icon": "file-text",
+    "category": "productivity"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

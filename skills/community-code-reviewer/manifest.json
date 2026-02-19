@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-code-reviewer",
+  "slug": "community-code-reviewer",
+  "name": "Code Reviewer Pro",
+  "version": "1.0.0",
+  "summary": "Runs rigorous code reviews focused on defects, reliability, and maintainability.",
+  "category": "development",
+  "tags": [
+    "code-review",
+    "quality",
+    "engineering"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "Jeffallan",
+    "repo": "claude-skills",
+    "commit": "8e68798",
+    "path": "skills/code-reviewer",
+    "stars": 3190
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-code-reviewer",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-competitor-alternatives",
+  "slug": "community-competitor-alternatives",
+  "name": "Competitor Alternatives Mapper",
+  "version": "1.0.0",
+  "summary": "Maps competitor alternatives, differentiators, and positioning opportunities.",
+  "category": "research",
+  "tags": [
+    "competitor",
+    "positioning",
+    "research"
+  ],
+  "icon": "search",
+  "source": {
+    "type": "community",
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "commit": "a857eb6",
+    "path": "skills/competitor-alternatives",
+    "stars": 8313
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-competitor-alternatives",
+    "icon": "search",
+    "category": "research"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

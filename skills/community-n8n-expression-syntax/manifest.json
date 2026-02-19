@@ -1,0 +1,40 @@
+{
+  "id": "ca.skill.community-n8n-expression-syntax",
+  "slug": "community-n8n-expression-syntax",
+  "name": "n8n Expression Syntax Guide",
+  "version": "1.0.0",
+  "summary": "Assists with robust n8n expressions and fixes common syntax/data-reference mistakes.",
+  "category": "development",
+  "tags": [
+    "n8n",
+    "expressions",
+    "javascript"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "czlonkowski",
+    "repo": "n8n-skills",
+    "commit": "d9c2872",
+    "path": "skills/n8n-expression-syntax",
+    "stars": 2848
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": [
+      "code/skills/n8n-expression-syntax/COMMON_MISTAKES.md",
+      "code/skills/n8n-expression-syntax/EXAMPLES.md",
+      "code/skills/n8n-expression-syntax/README.md"
+    ]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-n8n-expression-syntax",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

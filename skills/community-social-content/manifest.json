@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-social-content",
+  "slug": "community-social-content",
+  "name": "Social Content Engine",
+  "version": "1.0.0",
+  "summary": "Turns ideas into platform-ready social content variants with clear CTAs.",
+  "category": "productivity",
+  "tags": [
+    "social",
+    "content",
+    "marketing"
+  ],
+  "icon": "file-text",
+  "source": {
+    "type": "community",
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "commit": "a857eb6",
+    "path": "skills/social-content",
+    "stars": 8313
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-social-content",
+    "icon": "file-text",
+    "category": "productivity"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

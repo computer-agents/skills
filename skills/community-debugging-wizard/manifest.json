@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-debugging-wizard",
+  "slug": "community-debugging-wizard",
+  "name": "Debugging Wizard",
+  "version": "1.0.0",
+  "summary": "Applies systematic debugging workflows to isolate root causes and ship confident fixes.",
+  "category": "development",
+  "tags": [
+    "debugging",
+    "troubleshooting",
+    "engineering"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "Jeffallan",
+    "repo": "claude-skills",
+    "commit": "8e68798",
+    "path": "skills/debugging-wizard",
+    "stars": 3190
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-debugging-wizard",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

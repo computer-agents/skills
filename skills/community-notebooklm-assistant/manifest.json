@@ -1,0 +1,51 @@
+{
+  "id": "ca.skill.community-notebooklm-assistant",
+  "slug": "community-notebooklm-assistant",
+  "name": "NotebookLM Research Assistant",
+  "version": "1.0.0",
+  "summary": "Queries NotebookLM notebooks through browser automation for source-grounded answers.",
+  "category": "research",
+  "tags": [
+    "notebooklm",
+    "research",
+    "automation"
+  ],
+  "icon": "telescope",
+  "source": {
+    "type": "community",
+    "owner": "PleasePrompto",
+    "repo": "notebooklm-skill",
+    "commit": "eea5cb2",
+    "path": ".",
+    "stars": 3596
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": [
+      "code/references/api_reference.md",
+      "code/references/troubleshooting.md",
+      "code/references/usage_patterns.md",
+      "code/requirements.txt",
+      "code/scripts/__init__.py",
+      "code/scripts/ask_question.py",
+      "code/scripts/auth_manager.py",
+      "code/scripts/browser_session.py",
+      "code/scripts/browser_utils.py",
+      "code/scripts/cleanup_manager.py",
+      "code/scripts/config.py",
+      "code/scripts/notebook_manager.py",
+      "code/scripts/run.py",
+      "code/scripts/setup_environment.py"
+    ]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-notebooklm-assistant",
+    "icon": "telescope",
+    "category": "research"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

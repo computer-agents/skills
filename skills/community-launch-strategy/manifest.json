@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-launch-strategy",
+  "slug": "community-launch-strategy",
+  "name": "Launch Strategy Playbook",
+  "version": "1.0.0",
+  "summary": "Designs launch plans with channel sequencing, messaging assets, and KPI checkpoints.",
+  "category": "productivity",
+  "tags": [
+    "launch",
+    "go-to-market",
+    "planning"
+  ],
+  "icon": "presentation",
+  "source": {
+    "type": "community",
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "commit": "a857eb6",
+    "path": "skills/launch-strategy",
+    "stars": 8313
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-launch-strategy",
+    "icon": "presentation",
+    "category": "productivity"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ca.skill.community-api-designer",
+  "slug": "community-api-designer",
+  "name": "API Designer",
+  "version": "1.0.0",
+  "summary": "Designs robust APIs with strong contracts, versioning strategy, and developer usability.",
+  "category": "development",
+  "tags": [
+    "api",
+    "design",
+    "backend"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "Jeffallan",
+    "repo": "claude-skills",
+    "commit": "8e68798",
+    "path": "skills/api-designer",
+    "stars": 3190
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": []
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-api-designer",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

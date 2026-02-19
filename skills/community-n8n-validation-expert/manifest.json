@@ -1,0 +1,40 @@
+{
+  "id": "ca.skill.community-n8n-validation-expert",
+  "slug": "community-n8n-validation-expert",
+  "name": "n8n Validation Expert",
+  "version": "1.0.0",
+  "summary": "Performs structured validation of n8n workflows and identifies false-positive patterns.",
+  "category": "development",
+  "tags": [
+    "n8n",
+    "validation",
+    "quality"
+  ],
+  "icon": "search",
+  "source": {
+    "type": "community",
+    "owner": "czlonkowski",
+    "repo": "n8n-skills",
+    "commit": "d9c2872",
+    "path": "skills/n8n-validation-expert",
+    "stars": 2848
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": [
+      "code/skills/n8n-validation-expert/ERROR_CATALOG.md",
+      "code/skills/n8n-validation-expert/FALSE_POSITIVES.md",
+      "code/skills/n8n-validation-expert/README.md"
+    ]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-n8n-validation-expert",
+    "icon": "search",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ca.skill.community-n8n-workflow-patterns",
+  "slug": "community-n8n-workflow-patterns",
+  "name": "n8n Workflow Patterns",
+  "version": "1.0.0",
+  "summary": "Provides proven workflow patterns for automation, webhooks, and agent flows in n8n.",
+  "category": "development",
+  "tags": [
+    "n8n",
+    "automation",
+    "workflows"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "czlonkowski",
+    "repo": "n8n-skills",
+    "commit": "d9c2872",
+    "path": "skills/n8n-workflow-patterns",
+    "stars": 2848
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": [
+      "code/skills/n8n-workflow-patterns/ai_agent_workflow.md",
+      "code/skills/n8n-workflow-patterns/database_operations.md",
+      "code/skills/n8n-workflow-patterns/http_api_integration.md",
+      "code/skills/n8n-workflow-patterns/README.md",
+      "code/skills/n8n-workflow-patterns/scheduled_tasks.md",
+      "code/skills/n8n-workflow-patterns/webhook_processing.md"
+    ]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-n8n-workflow-patterns",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

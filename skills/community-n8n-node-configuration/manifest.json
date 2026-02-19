@@ -1,0 +1,40 @@
+{
+  "id": "ca.skill.community-n8n-node-configuration",
+  "slug": "community-n8n-node-configuration",
+  "name": "n8n Node Configuration Expert",
+  "version": "1.0.0",
+  "summary": "Helps configure n8n nodes correctly with dependencies, parameters, and operation patterns.",
+  "category": "development",
+  "tags": [
+    "n8n",
+    "node-config",
+    "development"
+  ],
+  "icon": "code",
+  "source": {
+    "type": "community",
+    "owner": "czlonkowski",
+    "repo": "n8n-skills",
+    "commit": "d9c2872",
+    "path": "skills/n8n-node-configuration",
+    "stars": 2848
+  },
+  "files": {
+    "prompt": "skill.md",
+    "code": [
+      "code/skills/n8n-node-configuration/DEPENDENCIES.md",
+      "code/skills/n8n-node-configuration/OPERATION_PATTERNS.md",
+      "code/skills/n8n-node-configuration/README.md"
+    ]
+  },
+  "install": {
+    "marketplaceTemplateId": "market-skill-community-n8n-node-configuration",
+    "icon": "code",
+    "category": "development"
+  },
+  "compatibility": {
+    "platformMin": "1.0.0",
+    "runtime": "custom-skill-v1"
+  },
+  "license": "MIT"
+}

@@ -1,22 +1,112 @@
 {
   "catalogVersion": "1.0.0",
-  "updatedAt": "2026-02-19T07:00:51.192Z",
+  "updatedAt": "2026-02-19T07:50:37.223Z",
   "publisher": "computer-agents",
   "skills": [
+    {
+      "id": "ca.skill.community-api-designer",
+      "slug": "community-api-designer",
+      "manifest": "skills/community-api-designer/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-code-reviewer",
+      "slug": "community-code-reviewer",
+      "manifest": "skills/community-code-reviewer/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-competitor-alternatives",
+      "slug": "community-competitor-alternatives",
+      "manifest": "skills/community-competitor-alternatives/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-content-strategy",
+      "slug": "community-content-strategy",
+      "manifest": "skills/community-content-strategy/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-copywriting",
+      "slug": "community-copywriting",
+      "manifest": "skills/community-copywriting/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-debugging-wizard",
+      "slug": "community-debugging-wizard",
+      "manifest": "skills/community-debugging-wizard/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-launch-strategy",
+      "slug": "community-launch-strategy",
+      "manifest": "skills/community-launch-strategy/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-marketing-ideas",
+      "slug": "community-marketing-ideas",
+      "manifest": "skills/community-marketing-ideas/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-n8n-expression-syntax",
+      "slug": "community-n8n-expression-syntax",
+      "manifest": "skills/community-n8n-expression-syntax/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-n8n-node-configuration",
+      "slug": "community-n8n-node-configuration",
+      "manifest": "skills/community-n8n-node-configuration/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-n8n-validation-expert",
+      "slug": "community-n8n-validation-expert",
+      "manifest": "skills/community-n8n-validation-expert/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-n8n-workflow-patterns",
+      "slug": "community-n8n-workflow-patterns",
+      "manifest": "skills/community-n8n-workflow-patterns/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-notebooklm-assistant",
+      "slug": "community-notebooklm-assistant",
+      "manifest": "skills/community-notebooklm-assistant/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-playwright-browser-automation",
+      "slug": "community-playwright-browser-automation",
+      "manifest": "skills/community-playwright-browser-automation/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-pricing-strategy",
+      "slug": "community-pricing-strategy",
+      "manifest": "skills/community-pricing-strategy/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-security-reviewer",
+      "slug": "community-security-reviewer",
+      "manifest": "skills/community-security-reviewer/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-seo-audit",
+      "slug": "community-seo-audit",
+      "manifest": "skills/community-seo-audit/manifest.json"
+    },
+    {
+      "id": "ca.skill.community-social-content",
+      "slug": "community-social-content",
+      "manifest": "skills/community-social-content/manifest.json"
+    },
     {
       "id": "ca.skill.deep-research",
       "slug": "deep-research",
       "manifest": "skills/deep-research/manifest.json"
     },
     {
-      "id": "ca.skill.web-search",
-      "slug": "web-search",
-      "manifest": "skills/web-search/manifest.json"
-    },
-    {
       "id": "ca.skill.image-generation",
       "slug": "image-generation",
       "manifest": "skills/image-generation/manifest.json"
+    },
+    {
+      "id": "ca.skill.memory",
+      "slug": "memory",
+      "manifest": "skills/memory/manifest.json"
     },
     {
       "id": "ca.skill.pdf-processing",
@@ -29,9 +119,9 @@
       "manifest": "skills/pptx/manifest.json"
     },
     {
-      "id": "ca.skill.memory",
-      "slug": "memory",
-      "manifest": "skills/memory/manifest.json"
+      "id": "ca.skill.web-search",
+      "slug": "web-search",
+      "manifest": "skills/web-search/manifest.json"
     }
   ]
 }
