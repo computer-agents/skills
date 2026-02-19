@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-02-19T00:00:00.000Z",
+  "defaults": {
+    "iconColor": "#f3f4f6",
+    "iconBgColor": "rgba(255,255,255,0.18)",
+    "bgColor": "#111827",
+    "provider": "Open Source"
+  },
+  "categories": {
+    "research": {
+      "iconColor": "#dbeafe",
+      "iconBgColor": "rgba(59,130,246,0.24)",
+      "bgColor": "#102039"
+    },
+    "creative": {
+      "iconColor": "#f5d0fe",
+      "iconBgColor": "rgba(217,70,239,0.26)",
+      "bgColor": "#2a1838"
+    },
+    "productivity": {
+      "iconColor": "#d1fae5",
+      "iconBgColor": "rgba(16,185,129,0.24)",
+      "bgColor": "#132b2a"
+    },
+    "development": {
+      "iconColor": "#e5e7eb",
+      "iconBgColor": "rgba(99,102,241,0.24)",
+      "bgColor": "#111827"
+    },
+    "custom": {
+      "iconColor": "#e2e8f0",
+      "iconBgColor": "rgba(148,163,184,0.22)",
+      "bgColor": "#1f2937"
+    },
+    "documents": {
+      "iconColor": "#fef3c7",
+      "iconBgColor": "rgba(245,158,11,0.24)",
+      "bgColor": "#2c1f10"
+    }
+  },
+  "skills": {
+    "deep-research": {
+      "tagline": "Comprehensive multi-source research",
+      "provider": "computer agents",
+      "bgColor": "#0f172a"
+    },
+    "web-search": {
+      "tagline": "Fast web discovery and source validation",
+      "provider": "computer agents",
+      "bgColor": "#111827"
+    },
+    "image-generation": {
+      "tagline": "Generate high-quality visuals from prompts",
+      "provider": "computer agents",
+      "bgColor": "#2b1740"
+    },
+    "pdf-processing": {
+      "tagline": "Extract and structure document insights",
+      "provider": "computer agents",
+      "bgColor": "#2a1f10"
+    },
+    "pptx": {
+      "tagline": "Programmatic presentation generation",
+      "provider": "computer agents",
+      "bgColor": "#132b2a"
+    },
+    "memory": {
+      "tagline": "Persistent long-term context for agents",
+      "provider": "computer agents",
+      "bgColor": "#0f2334"
+    }
+  }
+}
